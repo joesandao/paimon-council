@@ -1,0 +1,19 @@
+{
+  "name": "paimon-council",
+  "version": "1.0.0",
+  "description": "本ドキュメントはDiscordサーバー「パイモン教」において、利用者の増加・多様化に伴うトラブルを予防を実現するシステムについて定義する要件定義書である。",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joesandao/paimon-council.git"
+  },
+  "author": "bitcat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joesandao/paimon-council/issues"
+  },
+  "homepage": "https://github.com/joesandao/paimon-council#readme"
+}
