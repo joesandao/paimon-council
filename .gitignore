@@ -1,0 +1,92 @@
+# 依存関係 #
+############
+node_modules/
+package-lock.json
+yarn.lock
+
+# ログファイル #
+###############
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ランタイムデータ #
+###################
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ディレクトリによって生成されたファイル #
+#######################################
+/dist
+/build
+/.pnp
+.pnp.js
+
+# TypeScript v1 declaration files #
+###################################
+typings/
+
+# TypeScript コンパイル後のファイル #
+#####################################
+**/*.tsbuildinfo
+*.tsbuildinfo
+
+# Yarn Integrity file #
+######################
+.yarn-integrity
+
+# dotenv 環境変数ファイル #
+###########################
+.env
+.env.test
+
+# parcel-bundler キャッシュ #
+#############################
+.cache
+.parcel-cache
+
+# next.js ビルド出力 #
+######################
+.next
+out
+
+# nuxt.js ビルド出力 #
+######################
+.nuxt
+dist
+
+# vuepress ビルド出力 #
+######################
+.vuepress/dist
+
+# Serverless directories #
+##########################
+.serverless/
+
+# テストカバレッジ #
+###################
+coverage/
+*.coverage
+*.nyc_output
+
+# IDEs and editors #
+####################
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

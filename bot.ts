@@ -1,11 +1,16 @@
-import { Client, Intents } from 'discord.js';
+import { Client, GatewayIntentBits } from 'discord.js';
 import mongoose from 'mongoose';
 import User from './models/User';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const intents = [
+  GatewayIntentBits.GuildMessages, 
+  GatewayIntentBits.GuildMembers
+];
+
+const client = new Client({ intents });
 
 client.once('ready', () => {
   console.log('Bot is ready!');
